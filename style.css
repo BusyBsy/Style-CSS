@@ -4,7 +4,7 @@
   --bg:#0d1117; --surface:#161b22; --surface2:#21262d; --border:#30363d;
   --text:#e6edf3; --text2:#AAC2D6; --muted:#8b949e; --accent:#f0883e; --accent2:#58a6ff;
   --green:#3fb950; --yellow:#d29922; --archive:#bc8cff; --standard:#58a6ff;
-  --yearl:#3FB98C; --txtbox:#85D5B8; --greenhover:#B2D222;
+  --yearl:#3FB98C; --txtbox:#85D5B8; --greenhover:#B2D222; --red:#F54927;
 }
 *{box-sizing:border-box;margin:0;padding:0;}
 body{font-family:'IBM Plex Sans Thai',sans-serif;background:var(--bg);color:var(--text);font-size:13px;min-height:100vh;}
