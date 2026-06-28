@@ -4,13 +4,13 @@
   --bg:#0d1117; --surface:#161b22; --surface2:#21262d; --border:#30363d;
   --text:#e6edf3; --text2:#AAC2D6; --muted:#8b949e; --accent:#f0883e; --accent2:#58a6ff;
   --green:#3fb950; --yellow:#d29922; --archive:#bc8cff; --archT:#b86cff; --infreqT:#7577ff; --standard:#58deff;
-  --yearl:#3FB98C; --txtbox:#85D5B8; --greenhover:#B2D222; --red:#F87C63;
+  --yearl:#3FB98C; --txtbox:#85D5B8; --greenhover:#B2D222; --red:#F87C63; --oracle:#C74634;
 }
 *{box-sizing:border-box;margin:0;padding:0;}
 body{font-family:'IBM Plex Sans Thai',sans-serif;background:var(--bg);color:var(--text);font-size:13px;min-height:100vh;}
 /* HEADER */
 .header{background:linear-gradient(135deg,#0d1117,#161b22,#0d1117);border-bottom:1px solid var(--border);padding:14px 24px;display:flex;align-items:center;gap:14px;position:sticky;top:0;z-index:200;}
-.hlogo{width:34px;height:34px;background:linear-gradient(135deg,#f0883e,#d29922);border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:17px;}
+.hlogo{width:34px;height:34px;background:linear-gradient(135deg,#C74634,#9E2B1E);border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:17px;}
 .htitle{font-size:15px;font-weight:700;}
 .hsub{font-size:11px;color:var(--muted);margin-top:1px;}
 .hbadge{margin-left:auto;background:var(--surface2);border:1px solid var(--border);border-radius:20px;padding:4px 12px;font-size:11px;color:var(--green);font-family:'IBM Plex Mono',monospace;}
